@@ -1,32 +1,45 @@
+*{
+    padding:0px;
+    margin:0px
+}
+/* navegador*/
 .menu{
+    text-align: right;
     list-style: none;
     padding: 0;
     background: #092327;
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
     margin: auto;
+    font-size: 20px;
 }
 .logo{
-    width: 10%;
-    align-items: left ;
+    width: 100px;
+    height: 70px;
+}
+ul, ol{
+    list-style: none;
+}
+.menu > li {
+    display: inline-block;
+    text-align: center;
+}
+/* cuando uno pune el click encima*/
+.menu li a:hover{
+    background-color: blue;
 }
 .menu li a{
     text-decoration: none;
     color: white;
-    padding: 20px;
+    background-color: #092327;
+    padding: 25px;
     display:block;
 }
-.menu li a:hover{
-    background-color: blue;
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
 }
-.productos li{
-    display: inline-block;
-    text-align: center;
-}
-.productos li ul{
-    display:none;
-}
-.productos li:hover > ul{
-    display: block;
-
+.menu li:hover >ul{
+    display:block;
 }
