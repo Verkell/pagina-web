@@ -2,13 +2,62 @@
     padding:0px;
     margin:0px
 }
+
+
+/* navegador*/
+.menu{
+    text-align: right;
+    list-style: none;
+    padding: 0;
+    background: #24151b;
+    width: 100%;
+    height:100px;
+    margin: auto;
+    font-size: 20px;
+}
+.logo{
+    width: 150px;
+    height: 110px;
+    position:absolute;
+    left: 2%;
+}
+ul, ol{
+    list-style: none;
+}
+.menu > li {
+    display: inline-block;
+    text-align: center;
+}
+/* cuando uno pune el click encima*/
+.menu li a:hover{
+    background-color:#5f1a37
+}
+/*barra de menu*/
+.menu li a{
+    text-decoration: none;
+    color: white;
+    background-color: #24151bde;
+    padding: 43px;
+    display:block;
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 166px;
+}
+.menu li:hover >ul{
+    display:block;
+}
+.title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
 /*header*/
 .header{
     width:100%;
     height:600px;
     background: #0086ad;
     background:url(https://media.discordapp.net/attachments/925595850531557427/961693286840549376/Kunlun_2700x.webp?width=1980&height=720);
-    background-size: cover;
+    background-size:contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
@@ -27,47 +76,4 @@
     position:absolute;
     bottom: -1px;
     width:100%;
-}
-/* navegador*/
-.menu{
-    text-align: right;
-    list-style: none;
-    padding: 0;
-    background: #416788;
-    width: 100%;
-    margin: auto;
-    font-size: 20px;
-}
-.logo{
-    width: 100px;
-    height: 70px;
-    position:fixed;
-    left: 2%;
-}
-ul, ol{
-    list-style: none;
-}
-.menu > li {
-    display: inline-block;
-    text-align: center;
-}
-/* cuando uno pune el click encima*/
-.menu li a:hover{
-    background-color:#b5BAD0
-}
-/*barra de menu*/
-.menu li a{
-    text-decoration: none;
-    color: white;
-    background-color: #416788;
-    padding: 25px;
-    display:block;
-}
-.menu li ul{
-    display: none;
-    position: absolute;
-    min-width: 130px;
-}
-.menu li:hover >ul{
-    display:block;
 }
