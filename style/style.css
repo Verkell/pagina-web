@@ -39,6 +39,7 @@ ul, ol{
     background-color: #24151bde;
     padding: 43px;
     display:block;
+    z-index: index 1;
 }
 .menu li ul{
     display: none;
