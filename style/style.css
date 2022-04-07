@@ -7,7 +7,7 @@
     text-align: right;
     list-style: none;
     padding: 0;
-    background: #092327;
+    background: #416788;
     width: 100%;
     margin: auto;
     font-size: 20px;
@@ -15,7 +15,7 @@
 .logo{
     width: 100px;
     height: 70px;
-    position: absolute;
+    position:fixed;
     left: 2%;
 }
 ul, ol{
@@ -27,19 +27,20 @@ ul, ol{
 }
 /* cuando uno pune el click encima*/
 .menu li a:hover{
-    background-color:aquamarine
+    background-color:#b5BAD0
 }
+/*barra de menu*/
 .menu li a{
     text-decoration: none;
     color: white;
-    background-color: #092327;
+    background-color: #416788;
     padding: 25px;
     display:block;
 }
 .menu li ul{
     display: none;
     position: absolute;
-    min-width: 140px;
+    min-width: 130px;
 }
 .menu li:hover >ul{
     display:block;
