@@ -17,7 +17,7 @@
 }
 .logo{
     width: 150px;
-    height: 110px;
+    height: 100px;
     position:absolute;
     left: 2%;
 }
@@ -37,17 +37,18 @@ ul, ol{
     text-decoration: none;
     color: white;
     background-color: #24151bde;
-    padding: 43px;
+    padding: 38.5px;
     display:block;
-    z-index: index 1;
 }
+/*menu desplegable*/
 .menu li ul{
     display: none;
-    position: absolute;
-    min-width: 166px;
+    position:absolute;
+    min-width: 157px;
 }
 .menu li:hover >ul{
     display:block;
+    z-index:1;
 }
 .title{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
@@ -58,7 +59,7 @@ ul, ol{
     height:600px;
     background: #0086ad;
     background:url(https://media.discordapp.net/attachments/925595850531557427/961693286840549376/Kunlun_2700x.webp?width=1980&height=720);
-    background-size:contain;
+    background-size:auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
@@ -74,7 +75,27 @@ ul, ol{
     font-size:60px;
 }
 .wave{
+    
     position:absolute;
     bottom: -1px;
     width:100%;
+}
+.form-register{
+    text-align: center;
+    font-size: 15px;
+    padding: 40px;
+    background-color: #24151b;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div-mapa{
+    background-color: #24151b;
+    text-align: center;
+    
+}
+.texto-mapa{
+    text-align:;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
