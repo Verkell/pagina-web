@@ -79,7 +79,7 @@ ul, ol{
     position:absolute;
     bottom: -1px;
     width:100%;
-}
+} /* Formulario de contacto */
 .form-register{
     text-align: center;
     font-size: 15px;
@@ -88,13 +88,46 @@ ul, ol{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.controls{
+    width: 50%;
+    background: #293038;
+    padding:10px;
+    border-radius: 10px;
+    margin-bottom:16px;
+    border: 1px solid #5f1a37;
+    font-family:'calibri';
+    font-size: 18px;
+}
+.select{
+    width: 50%;
+    background: #293038;
+    padding:10px;
+    border-radius: 10px;
+    margin-bottom:16px;
+    border: 1px solid #5f1a37;
+    font-family:'calibri';
+    font-size: 18px;
+}
+.botons{
+    width: 50%;
+    background: #5f1a37;
+    border:none;
+    padding: 12px;
+    color:white;
+    margin:16px 0;
+    font-size:16px;
+    border-radius: 4px;
+}
+.form-register .botons:hover{
+    background: #293038 ;
+}
 .div-mapa{
     background-color: #24151b;
     text-align: center;
     
 }
 .texto-mapa{
-    text-align:;
+    text-align:center;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
