@@ -2,7 +2,9 @@
     padding:0px;
     margin:0px
 }
-
+body{
+    background-color: #24151b;
+}
 
 /* navegador*/
 .menu{
@@ -30,7 +32,7 @@ ul, ol{
 }
 /* cuando uno pune el click encima*/
 .menu li a:hover{
-    background-color:#5f1a37
+    background-color:#5f1a37;
 }
 /*barra de menu*/
 .menu li a{
@@ -79,7 +81,13 @@ ul, ol{
     position:absolute;
     bottom: -1px;
     width:100%;
-} /* Formulario de contacto */
+}
+.div-video{
+    background-color: #24151b;
+    text-align: center;
+    
+}
+/* Formulario de contacto */
 .form-register{
     text-align: center;
     font-size: 15px;
@@ -121,14 +129,44 @@ ul, ol{
 .form-register .botons:hover{
     background: #293038 ;
 }
-.div-mapa{
+/*pie de pagina*/
+footer{
+    background-color: #24151b;
+}
+.div-footer{
+    width: 50%;
+    background-color: #5f1a37;
+}
+.div-footer p{
+    padding: 12px;
+}
+.div-footer .mapa{
     background-color: #24151b;
     text-align: center;
-    
+    width: 30%;
+    height: 30%;
+    position:absolute;
+    right: 2%;
 }
 .texto-mapa{
     text-align:center;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: black;
+}
+.red-social .facebook img{
+    width: 60px;
+    height: 60px;
+}
+.red-social .instagram img{
+    width: 60px;
+    height: 60px;
+}
+.red-social .twitter img{
+    width: 60px;
+    height: 60px;
+}
+.red-social .youtube img{
+    width: 60px;
+    height: 60px;
 }
