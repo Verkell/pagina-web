@@ -23,9 +23,7 @@ body{
     position:absolute;
     left: 2%;
 }
-ul, ol{
-    list-style: none;
-}
+
 .menu > li {
     display: inline-block;
     text-align: center;
