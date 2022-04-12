@@ -41,6 +41,7 @@ ul, ol{
     background-color: #24151bde;
     padding: 38.5px;
     display:block;
+    transition-duration: 0.3s;
 }
 /*menu desplegable*/
 .menu li ul{
@@ -107,6 +108,11 @@ ul, ol{
     font-size: 18px;
     resize: none;
 }
+
+.select option[disabled]{
+    color:#0086ad
+}
+
 .select{
     width: 50%;
     background: #293038;

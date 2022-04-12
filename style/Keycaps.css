@@ -35,6 +35,7 @@ ul, ol{
     background-color: #092327;
     padding: 25px;
     display:block;
+    transition-duration: 0.3s;
 }
 .menu li ul{
     display: none;
