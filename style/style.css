@@ -105,6 +105,8 @@ ul, ol{
     border: 1px solid #5f1a37;
     font-family:'calibri';
     font-size: 18px;
+    max-width: 800px;
+    min-width: 800px;
 }
 .select{
     width: 50%;
@@ -143,16 +145,18 @@ footer{
 .div-footer .mapa{
     background-color: #24151b;
     text-align: center;
-    width: 30%;
-    height: 30%;
+    width: 250px;
+    height: 250px;
     position:absolute;
-    right: 2%;
+    right: 15%;
 }
-.texto-mapa{
-    text-align:center;
+.texto-mapa{ /*no es posible colocarlo encima del mapa*/
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
+}
+.red-social{
+    padding: 1%;
 }
 .red-social .facebook img{
     width: 60px;
