@@ -23,8 +23,8 @@ body{
     position:absolute;
     left: 2%;
 }
-ul, ol{
-    list-style: none;
+ol{
+    margin-left: 15px;
 }
 .menu > li {
     display: inline-block;
@@ -41,6 +41,7 @@ ul, ol{
     background-color: #24151bde;
     padding: 38.5px;
     display:block;
+    transition-duration: 0.3s;
 }
 /*menu desplegable*/
 .menu li ul{
